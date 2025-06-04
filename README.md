@@ -1,12 +1,50 @@
-# React + Vite
+# Homeway
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Homeway é um projeto desenvolvido com foco em facilitar a busca por moradias para estudantes intercambistas de forma simples, segura e prática.
 
-Currently, two official plugins are available:
+## Objetivo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Na Homeway, queremos simplificar a vida de estudantes que estão indo estudar fora do país. Nosso propósito é eliminar a burocracia e oferecer um processo acolhedor desde o primeiro passo. A plataforma oferece suporte completo com tradução, localização e auxílio com contratos, garantindo que cada etapa da mudança seja tranquila e sem surpresas.
 
-## Expanding the ESLint configuration
+Mais do que alugar um imóvel, buscamos proporcionar uma experiência positiva tanto para os estudantes quanto para os anfitriões — com confiança, praticidade e suporte completo.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tecnologias utilizadas
+
+- [React](https://reactjs.org/)
+- [React Router](https://reactrouter.com/)
+- [Lucide React](https://lucide.dev/)
+- [Bootstrap 5](https://getbootstrap.com/)
+
+## Requisitos
+
+- Node.js: `v22.14.0`
+- NPM: `v10.9.2`
+
+## Instalação
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/pedro-cerger-bueno/homeway.git
+cd homeway
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+## Executando o projeto
+
+Para iniciar o servidor de desenvolvimento:
+
+```bash
+npm run dev
+```
+
+O projeto será iniciado em modo de desenvolvimento e estará disponível em:
+
+```
+http://localhost:5173
+```

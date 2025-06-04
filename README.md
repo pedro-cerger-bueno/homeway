@@ -26,7 +26,6 @@ Clone o repositório:
 
 ```bash
 git clone https://github.com/pedro-cerger-bueno/homeway.git
-cd homeway
 ```
 
 Instale as dependências:
